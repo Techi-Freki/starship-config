@@ -31,6 +31,7 @@ palette = 'techifreki'
 
 [palettes.techifreki]
 color_fg0 = '#feefd2'
+color_fg1 = '#09060d'
 color_bg1 = '#1e2a50'
 color_bg3 = '#484e70'
 color_blue = '#32789c'
@@ -87,6 +88,7 @@ truncation_symbol = "…/"
 "Music" = "󰝚 "
 "Pictures" = " "
 "Developer" = "󰲋 "
+"Projects" = "󰲋 "
 
 [git_branch]
 symbol = ""
@@ -95,7 +97,7 @@ format = '[[ $symbol $branch ](fg:color_fg0 bg:color_salmon)]($style)'
 
 [git_status]
 style = "bg:color_salmon"
-format = '[[($all_status$ahead_behind )](fg:color_fg0 bg:color_salmon)]($style)'
+format = '[[($all_status$ahead_behind )](fg:color_fg1 bg:color_salmon)]($style)'
 
 [nodejs]
 symbol = ""
